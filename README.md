@@ -41,11 +41,14 @@ This starts both the Python backend and Next.js frontend simultaneously.
 
 #### **Option 2: Manual Start**
 ```bash
-# Terminal 1: Start Python backend
-npm run python-backend
+# Terminal 1: Start By running
+python .\start_server.py
 
-# Terminal 2: Start Next.js frontend  
+#Terminal 2: Start Next.js Frontend
 npm run dev
+
+# Terminal 3: Back End (Threshold Can be changed to whatever number u want)
+python predict_audio_only.py --model guntype_resnet50.pth --threshold 0.6
 ```
 
 ### Access Points
