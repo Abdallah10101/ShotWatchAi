@@ -14,12 +14,17 @@ A real-time gunshot detection system with webcam integration and gun type classi
 - **Frontend Display**: Live webcam feed on Next.js interface
 - **Automatic Saving**: Saves detection images as "Gun Name - YYYY-MM-DD HH-MM-SS.jpg"
 
+
+## Presentation
+- **Video Link**: (https://youtu.be/EBYnU8mtW4Y)
+
 ## Quick Start
 
 ### Prerequisites
 - Python 3.8+
 - Node.js 16+
 - Camera permissions enabled
+- Ensure Only 1 camera (Preferably with PTZ functionality)
 - Microphone access
 
 ### Installation
@@ -33,13 +38,8 @@ npm install
 
 ### Running the System
 
-#### **Option 1: Full System (Recommended)**
-```bash
-npm run dev-full
-```
-This starts both the Python backend and Next.js frontend simultaneously.
 
-#### **Option 2: Manual Start**
+#### **Manual Start**
 ```bash
 # Terminal 1: Start By running
 python .\start_server.py
