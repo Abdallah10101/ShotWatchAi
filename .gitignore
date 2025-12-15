@@ -47,3 +47,12 @@ dist/
 # python temp files
 temp/
 *.log
+
+node_modules/
+venv/.venv/
+__pycache__/
+.next/
+temp/
+*.log
+.env
+
